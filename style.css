@@ -1,0 +1,36 @@
+*
+{
+    margin: 0;
+}
+.botomb
+{
+    display: flex;
+    justify-content: space-between;
+    bottom: 0px;
+    background-color: rgb(235, 235, 235);
+    width: 100vw;
+    height: 10vh;
+    position: fixed;
+}
+.botomb button{
+    padding: 1rem 1rem;
+    display: flex;
+    align-self: center;
+    border: 0;
+    margin: 0 1rem;
+    padding: 2rem;
+}
+.botomb .active{
+    
+    background-color: rgb(154, 154, 154);
+    border-radius: 50%;
+}
+.calendar{
+    background: url(./itens/iconmonstr-calendar-7.svg) no-repeat center;
+}
+.casa{
+    background: url(./itens/iconmonstr-home-8.svg) no-repeat center;
+}
+.midia{
+    background: url(./itens/iconmonstr-marketing-11.svg) no-repeat center;
+}

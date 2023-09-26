@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="login">
+        <div class="container">
+            
+                <input type="email" placeholder="Insira seu Email" class="norbit">
+                
+        
+                <input type="password" placeholder="Insira sua senha" class="norbit">
+                <input type="submit" value="Logar" class="submit">
+            </div>
+    </div>
+    <div class="agenda invisible">
+    <div class="evento">
+        <div class="dataevento"><span>sáb</span><span>23/09</span></div>
+        <div class="nomevento green "><span>adolecentes</span> <span>19:30</span></div>
+    </div>
+    <div class="evento">
+        <div class="dataevento"><span>dom</span><span>24/09</span></div>
+        <div class="nomevento red "><span>Culto</span> <span>19:30</span></div>
+    </div>
+    
+    </div>
+    <div class="botomb">
+        <button  class="calendar active" onclick="change();"></button>
+        <button class="casa " onclick="createvent();"></button>
+        <button class="midia" onclick="color();"></button>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

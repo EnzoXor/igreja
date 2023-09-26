@@ -1,0 +1,155 @@
+:root{
+    --gray: rgb(235, 235, 235);
+    --dark-gray: rgb(214, 213, 213);
+    --white: white;
+    --calendar-icon:url(./itens/normal/iconmonstr-calendar-7.svg);
+    --casa-icon: url(./itens/normal/iconmonstr-home-8.svg);
+    --midia-icon:url(./itens/normal/iconmonstr-marketing-11.svg);
+}
+.dark{
+    --gray: rgb(100, 100, 100);
+    --dark-gray: rgb(57, 57, 57);
+    --white: rgb(23, 23, 23);
+    background-color: var(--white);
+    color: white;
+    --calendar-icon:url(./itens/dark/iconmonstr-calendar-7.svg);
+    --casa-icon: url(./itens/dark/iconmonstr-home-8.svg);
+    --transparent-gray: rgba(98, 98, 98, 0.544);
+    --midia-icon:url(./itens/dark/iconmonstr-marketing-11.svg);
+}
+*
+{
+    margin: 0;
+}
+
+.botomb
+{
+    display: flex;
+    justify-content: space-between;
+    bottom: 0px;
+    background-color: var(--gray);
+    width: 100vw;
+    height: 10vh;
+    position: fixed;
+}
+.botomb button{
+    padding: 1rem 1rem;
+    display: flex;
+    align-self: center;
+    border: 0;
+    margin: 0 1rem;
+    padding: 2rem;
+}
+.botomb .active{
+    
+    background-color:  var(--dark-gray);
+    border-radius: 50%;
+}
+.calendar{
+    background: var(--calendar-icon) no-repeat center;
+}
+.casa{
+    background: var(--casa-icon) no-repeat center;
+}
+.midia{
+    background: var(--midia-icon) no-repeat center;
+}
+.agenda{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow-x: scroll;
+}
+.evento{
+    display: flex;
+    width: 90vw;
+    height: 15vh;
+    background-color: var(--dark-gray);
+    border-radius: .5rem;
+    margin-top: 2rem;
+    align-items: center;
+}
+.dataevento{
+    display: flex;
+    flex-direction: column;
+    width: 13vh;
+    height: 13vh;
+    background-color: var(--white);
+    border-radius: .5rem;
+    margin: 0 1rem 0 .5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+.nomevento{
+    display: flex;
+    flex-direction: column;
+    width: 70vw;
+    height: 13vh;
+    border-radius: .5rem;
+    margin: 0 1rem 0 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+.green{
+    background-color: rgb(13, 144, 4);
+}
+.red{
+    background-color: crimson;
+}
+
+
+.login{
+    display: flex;
+    justify-content: center;
+
+}
+
+.container{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    width: 85vw;
+    height:80vh;
+    background-color: var(--dark-gray);
+    border-radius: 1rem;
+}
+
+.container .norbit{
+all: unset;
+margin: 1rem;
+padding: 0 1rem;
+border-radius: .2rem;
+width: 80%;
+height: 10vh;
+border: 1px solid var(--white);
+background-color: var(--transparent-gray);
+}
+
+.container .submit{
+    all: unset;
+    width: 80%;
+    height: 10vh;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.invisible{
+    display: none;
+}
